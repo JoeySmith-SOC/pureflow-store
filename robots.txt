@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://joeysmith-soc.github.io/pureflow-store/sitemap.xml
