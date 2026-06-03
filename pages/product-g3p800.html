@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G3P800 Pro RO System — PureFlow</title>
+  <meta name="description" content="800 GPD tankless reverse osmosis system with UV sterilization. NSF certified. Ships from US warehouses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo"><span class="logo-drop">●</span> PureFlow</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#products">Systems</a></li>
+        <li><a href="filters.html">Filters</a></li>
+        <li><a href="why.html">Why PureFlow</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="../index.html#products" class="nav-cta">Shop Now</a>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+    </div>
+  </nav>
+
+  <div class="product-detail">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a><span>›</span>
+      <a href="../index.html#products">Systems</a><span>›</span>
+      G3P800 Pro RO System
+    </div>
+
+    <div class="product-detail-grid">
+      <div class="product-detail-img">
+        <div style="text-align:center;">
+          <div style="width:100px;height:180px;background:linear-gradient(180deg,var(--navy-light),var(--navy-mid));border:1.5px solid rgba(0,200,224,0.4);border-radius:14px;margin:0 auto 16px;box-shadow:0 0 40px rgba(0,200,224,0.2);"></div>
+          <div style="font-size:0.85rem;color:var(--gray);">G3P800 — 800 GPD Tankless RO</div>
+        </div>
+      </div>
+
+      <div class="product-detail-info">
+        <span style="font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--cyan);margin-bottom:8px;display:block;">Tankless RO System</span>
+        <h1>G3P800 Pro RO System</h1>
+
+        <div class="product-detail-price" style="margin:16px 0 24px;">
+          <span class="price-current">$449.99</span>
+          <span class="price-was">$649.99</span>
+          <span style="font-size:0.8rem;color:var(--green);margin-left:10px;font-weight:600;">Save $200</span>
+        </div>
+
+        <p class="product-detail-desc">
+          The G3P800 is the best RO system for families who demand the highest level of performance. 800 GPD flow rate with UV sterilization built in — fill a 6-oz cup in about 3 seconds. The smart LED faucet keeps you informed about water status, filter life, and TDS in real time.
+        </p>
+
+        <table class="specs-table">
+          <tr><td>Flow Rate</td><td>800 Gallons Per Day</td></tr>
+          <tr><td>Pure-to-Drain Ratio</td><td>3:1</td></tr>
+          <tr><td>Filtration Stages</td><td>11-stage precision</td></tr>
+          <tr><td>UV Sterilization</td><td>✓ Built-in (99.9% bacteria)</td></tr>
+          <tr><td>Filter Swap</td><td>3-second, tool-free</td></tr>
+          <tr><td>Certifications</td><td>NSF/ANSI 42, 53, 58, 372</td></tr>
+          <tr><td>Dimensions</td><td>18.5"H × 5.9"W × 15.2"D</td></tr>
+          <tr><td>Power Required</td><td>Yes (under-sink outlet)</td></tr>
+          <tr><td>Faucet Included</td><td>Smart LED faucet</td></tr>
+          <tr><td>Ships From</td><td>US Warehouse</td></tr>
+        </table>
+
+        <!-- Stripe Buy Button placeholder -->
+        <div id="stripe-checkout-g3p800">
+          <button class="btn btn-primary add-to-cart" onclick="handleCheckout('g3p800')">
+            Buy Now — $449.99
+          </button>
+        </div>
+        <p style="font-size:0.78rem;color:var(--gray);margin-top:10px;">✓ Free shipping · ✓ 30-day returns · ✓ Secure checkout via Stripe</p>
+
+        <div style="margin-top:28px;padding:18px;background:var(--navy-mid);border-radius:12px;border:1px solid rgba(200,169,110,0.2);">
+          <strong style="color:var(--gold);font-size:0.85rem;">🔁 Replacement Filters</strong>
+          <p style="font-size:0.85rem;color:var(--gray-light);margin-top:6px;">CF filter: 6 months · CB filter: 1 year · RO membrane: 2 years. <a href="filters.html" style="color:var(--cyan);">Shop filters →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner" style="grid-template-columns:1fr;">
+      <div style="text-align:center;">
+        <span class="logo"><span class="logo-drop">●</span> PureFlow</span>
+        <p style="color:var(--gray);font-size:0.85rem;margin-top:10px;">© 2025 PureFlow Water. Products fulfilled by Waterdrop.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    function handleCheckout(product) {
+      // Stripe checkout integration goes here (Step 2)
+      alert('Stripe checkout coming soon! Product: ' + product);
+    }
+  </script>
+</body>
+</html>
